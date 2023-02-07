@@ -2,7 +2,7 @@
  * @Author: WindBlows zhanghehan@huawenholdings.com
  * @Date: 2023-02-06 18:07:34
  * @LastEditors: WindBlows zhanghehan@huawenholdings.com
- * @LastEditTime: 2023-02-07 10:23:45
+ * @LastEditTime: 2023-02-07 10:52:58
  * @FilePath: \vite-study\src\App.vue
  * @Description: 
  * 
@@ -22,7 +22,7 @@ import HelloWorld from './components/HelloWorld.vue';
         </a>
     </div>
     <HelloWorld msg="Vite + Vue" />
-    <!-- sdkjsladkjlas -->
+    <!-- 测试测试测试测试dev -->
 </template>
 
 <style lang="less" scoped>
