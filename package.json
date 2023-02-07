@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint src --ext .ts,.tsx,.vue,.js,.jsx",
-    "lint:fix": "eslint src --fix --ext .ts,.tsx,.vue,.js,.jsx",
+    "lint": "eslint src --ext .ts,.tsx,.vue,.js,.jsx,.html",
+    "lint:fix": "eslint src --fix --ext .ts,.tsx,.vue,.js,.js,.htmlx",
     "stylelint": "stylelint \"./**/*.{css,less,vue,html}\"",
     "stylelint:fix": "stylelint \"./**/*.{css,less,vue,html}\" --fix",
     "format": "prettier --write ."

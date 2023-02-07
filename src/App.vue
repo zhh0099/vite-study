@@ -2,7 +2,7 @@
  * @Author: WindBlows zhanghehan@huawenholdings.com
  * @Date: 2023-02-06 18:07:34
  * @LastEditors: WindBlows zhanghehan@huawenholdings.com
- * @LastEditTime: 2023-02-07 10:52:58
+ * @LastEditTime: 2023-02-07 11:07:33
  * @FilePath: \vite-study\src\App.vue
  * @Description: 
  * 
@@ -14,6 +14,9 @@ import HelloWorld from './components/HelloWorld.vue';
 
 <template>
     <div>
+        <!-- asdasd -->
+        <!-- asdasdzxcxc -->
+        <!-- 洒家打开拉萨家里的 -->
         <a href="https://vitejs.dev" target="_blank">
             <img src="/vite.svg" class="logo" alt="Vite logo" />
         </a>
