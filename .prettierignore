@@ -33,6 +33,7 @@ components/style/color/*.less
 .browserslistrc
 .env
 .env.*
+.md
 .vscode/
 *.conf
 Dockerfile

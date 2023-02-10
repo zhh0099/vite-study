@@ -2,7 +2,7 @@
  * @Author: WindBlows zhanghehan@huawenholdings.com
  * @Date: 2023-02-03 14:35:09
  * @LastEditors: WindBlows zhanghehan@huawenholdings.com
- * @LastEditTime: 2023-02-07 14:51:49
+ * @LastEditTime: 2023-02-09 14:29:40
  * @FilePath: \vite-study\vite.config.ts
  * @Description:
  *
@@ -12,6 +12,7 @@ import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import legacy from '@vitejs/plugin-legacy';
 import path from 'path';
+
 const resolve = (str: string): string => path.resolve(__dirname, str);
 
 // https://vitejs.dev/config/
@@ -27,5 +28,9 @@ export default defineConfig({
         alias: {
             '@': resolve('./src'),
         },
+    },
+    server: {
+        host: true,
+        port: 7070,
     },
 });
