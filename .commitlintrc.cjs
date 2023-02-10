@@ -2,8 +2,8 @@
  * @Author: WindBlows zhanghehan@huawenholdings.com
  * @Date: 2023-02-10 11:24:05
  * @LastEditors: WindBlows zhanghehan@huawenholdings.com
- * @LastEditTime: 2023-02-10 14:17:50
- * @FilePath: \vite-study\.commitlintrc.cjs
+ * @LastEditTime: 2023-02-10 14:33:42
+ * @FilePath: \vite-study\commitlint.config.js
  * @Description:
  *
  * Copyright (c) 2023 by zhanghehan@huawenholdings.com, All Rights Reserved.
@@ -11,32 +11,6 @@
 module.exports = {
     ignores: [(commit) => commit.includes('init')],
     extends: ['@commitlint/config-conventional'],
-    parserPreset: {
-        parserOpts: {
-            headerPattern:
-                /^(\w*|[\u4e00-\u9fa5]*)(?:[\(\（](.*)[\)\）])?[\:\：] (.*)/,
-            headerCorrespondence: ['type', 'scope', 'subject'],
-            referenceActions: [
-                'close',
-                'closes',
-                'closed',
-                'fix',
-                'fixes',
-                'fixed',
-                'resolve',
-                'resolves',
-                'resolved',
-            ],
-            issuePrefixes: ['#'],
-            noteKeywords: ['BREAKING CHANGE', '不兼容变更'],
-            fieldPattern: /^-(.*?)-$/,
-            revertPattern: /^Revert\s"([\s\S]*)"\s*This reverts commit (\w*)\./,
-            revertCorrespondence: ['header', 'hash'],
-            warn() {},
-            mergePattern: null,
-            mergeCorrespondence: null,
-        },
-    },
     rules: {
         'body-leading-blank': [2, 'always'],
         'footer-leading-blank': [1, 'always'],
