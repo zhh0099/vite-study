@@ -2,7 +2,7 @@
  * @Author: WindBlows zhanghehan@huawenholdings.com
  * @Date: 2023-02-03 16:40:51
  * @LastEditors: WindBlows zhanghehan@huawenholdings.com
- * @LastEditTime: 2023-02-06 18:07:10
+ * @LastEditTime: 2023-02-10 14:05:53
  * @FilePath: \vite-study\.stylelintrc.cjs
  * @Description:
  *
