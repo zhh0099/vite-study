@@ -11,6 +11,9 @@
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import legacy from '@vitejs/plugin-legacy';
+import AutoImport from 'unplugin-auto-import/vite';
+import Components from 'unplugin-vue-components/vite';
+import { ElementPlusResolver } from 'unplugin-vue-components/resolvers';
 import path from 'path';
 
 const resolve = (str: string): string => path.resolve(__dirname, str);
@@ -23,6 +26,12 @@ export default defineConfig({
             targets: ['defaults', 'not IE 11'],
         }),
         vue(),
+        AutoImport({
+            resolvers: [ElementPlusResolver()],
+        }),
+        Components({
+            resolvers: [ElementPlusResolver()],
+        }),
     ],
     resolve: {
         alias: {
